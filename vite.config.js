@@ -2,10 +2,10 @@ import { fileURLToPath, URL } from "node:url";
 import { defineConfig } from "vite";
 import vue from "@vitejs/plugin-vue";
 
-// https://vitejs.dev/config/
+// https://vite.dev/config/
 export default defineConfig(({ command }) => ({
   plugins: [vue()],
-  base: command === "serve" ? "/" : "/Programmatic.io/",
+  base: command === "serve" ? "/" : "/Final/",
   resolve: {
     alias: {
       "@": fileURLToPath(new URL("./src", import.meta.url)),
