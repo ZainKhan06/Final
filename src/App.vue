@@ -19,8 +19,10 @@ const closeMobileMenu = () => {
         <img class="w-10" src="./assets/logo.png" />
       </RouterLink>
 
-      <RouterLink to="/" @click="closeMobileMenu">Programmatic</RouterLink>
+      <!-- FIXED -->
+      <RouterLink to="/" @click="closeMobileMenu">Programmatics</RouterLink>
     </div>
+
     <div class="nav-btn items-center h-full flex justify-center">
       <label for="nav-check" class="p-2">
         <span></span>
@@ -28,129 +30,119 @@ const closeMobileMenu = () => {
         <span></span>
       </label>
     </div>
+
     <ul class="nav-list items-center list-none">
       <li>
         <router-link to="/" @click="closeMobileMenu">Home</router-link>
       </li>
-      <divz
+
+      <!-- FIXED divz -->
+      <div
         class="inline-block w-0.5 self-stretch bg-neutral-100 opacity-100 dark:opacity-50"
-      ></divz>
+      ></div>
+
       <li>
         <router-link to="/about" @click="closeMobileMenu">About</router-link>
       </li>
-      <div
-        class="inline-block w-0.5 self-stretch bg-neutral-100 opacity-100 dark:opacity-50"
-      ></div>
+      <div class="inline-block w-0.5 self-stretch bg-neutral-100 opacity-100 dark:opacity-50"></div>
+
       <li>
         <router-link to="/team" @click="closeMobileMenu">Our Team</router-link>
       </li>
-      <div
-        class="inline-block w-0.5 self-stretch bg-neutral-100 opacity-100 dark:opacity-50"
-      ></div>
+      <div class="inline-block w-0.5 self-stretch bg-neutral-100 opacity-100 dark:opacity-50"></div>
+
       <li>
         <router-link to="/enroll" @click="closeMobileMenu">Enroll</router-link>
       </li>
-      <div
-        class="inline-block w-0.5 self-stretch bg-neutral-100 opacity-100 dark:opacity-50"
-      ></div>
+      <div class="inline-block w-0.5 self-stretch bg-neutral-100 opacity-100 dark:opacity-50"></div>
+
       <li>
         <router-link to="/volunteer" @click="closeMobileMenu">Volunteer</router-link>
       </li>
-      <div
-        class="inline-block w-0.5 self-stretch bg-neutral-100 opacity-100 dark:opacity-50"
-      ></div>
+      <div class="inline-block w-0.5 self-stretch bg-neutral-100 opacity-100 dark:opacity-50"></div>
+
       <li>
         <router-link to="/articles" @click="closeMobileMenu">Articles</router-link>
       </li>
-      <div
-        class="inline-block w-0.5 self-stretch bg-neutral-100 opacity-100 dark:opacity-50"
-      ></div>
+      <div class="inline-block w-0.5 self-stretch bg-neutral-100 opacity-100 dark:opacity-50"></div>
+
       <li class="items-center justify-center self-center w-8 h-8">
         <router-link to="https://discord.gg/PGUc95ZRYk">
-          <img class="w-8" src="./assets/discord.png"
-        /></router-link>
+          <img class="w-8" src="./assets/discord.png" />
+        </router-link>
       </li>
+
       <li class="items-center justify-center self-center w-8 h-8">
         <router-link to="https://www.instagram.com/programmatics_official/">
-          <img class="w-8" src="./assets/instagram.png"
-        /></router-link>
+          <img class="w-8" src="./assets/instagram.png" />
+        </router-link>
       </li>
     </ul>
   </nav>
 
   <RouterView />
+
   <footer class="bg-gray-800 text-white py-8 w-full bottom-0 footer">
-    <div class="">
+    <div>
       <div class="flex justify-center gap-20 footer-div">
         <div class="flex justify-center items-center gap-4">
-          <img
-            src="./assets/logo.png"
-            alt="Programmatic Logo"
-            class="w-10 h-10"
-          />
+          <img src="./assets/logo.png" alt="Programmatics Logo" class="w-10 h-10" />
           <div>
-            <h1 class="font-extrabold text-xl">Programmatic</h1>
+            <h1 class="font-extrabold text-xl">Programmatics</h1>
           </div>
         </div>
+
         <div class="flex gap-7 items-center justify-center">
-          <ul
-            class="flex gap-7 items-center justify-center link-list list-none"
-          >
-            <li>
-              <router-link to="/">Home</router-link>
-            </li>
+          <ul class="flex gap-7 items-center justify-center link-list list-none">
+            <li><router-link to="/">Home</router-link></li>
             <div class="bg-neutral-100 opacity-100 dark:opacity-50"></div>
-            <li>
-              <router-link to="/about">About</router-link>
-            </li>
+            <li><router-link to="/about">About</router-link></li>
             <div class="bg-neutral-100 opacity-100 dark:opacity-50"></div>
-            <li>
-              <router-link to="/team">Our Team</router-link>
-            </li>
+            <li><router-link to="/team">Our Team</router-link></li>
             <div class="bg-neutral-100 opacity-100 dark:opacity-50"></div>
-            <li>
-              <router-link to="/enroll">Enroll</router-link>
-            </li>
+            <li><router-link to="/enroll">Enroll</router-link></li>
             <div class="bg-neutral-100 opacity-100 dark:opacity-50"></div>
-            <li>
-              <router-link to="/volunteer">Volunteer</router-link>
-            </li>
+            <li><router-link to="/volunteer">Volunteer</router-link></li>
             <div class="bg-neutral-100 opacity-100 dark:opacity-50"></div>
-            <li>
-              <router-link to="/articles">Articles</router-link>
-            </li>
+            <li><router-link to="/articles">Articles</router-link></li>
           </ul>
         </div>
+
         <div class="flex gap-12 justify-center items-center">
           <h1 class="font-bold text-lg mt-1">Socials:</h1>
+
           <router-link
             href="https://www.instagram.com/programmatics_official/"
             target="_blank"
             rel="noopener noreferrer"
           >
-            <img src="./assets/instagram.png" alt="Instagram" class="w-8 h-8" />
+            <img src="./assets/instagram.png" class="w-8 h-8" />
           </router-link>
+
           <router-link
             href="https://discord.gg/PGUc95ZRYk"
             target="_blank"
             rel="noopener noreferrer"
           >
-            <img src="./assets/discord.png" alt="Discord" class="w-7 h-8" />
+            <img src="./assets/discord.png" class="w-7 h-8" />
           </router-link>
+
           <router-link href="mailto:programmaticteams@gmail.com">
-            <img src="./assets/gmail.png" alt="Gmail" class="w-8 h-7" />
+            <img src="./assets/gmail.png" class="w-8 h-7" />
           </router-link>
         </div>
       </div>
+
       <div>
         <p class="text-center para text-white mb-5 pt-6">
-          Programmatic is a nonprofit organization committed to expanding
+          Programmatics is a nonprofit organization committed to expanding
           access to high-quality computer science education for students.
         </p>
       </div>
     </div>
   </footer>
 </template>
+
 <style>
 * {
   box-sizing: border-box;
@@ -173,6 +165,7 @@ body {
 .nav > #nav-check {
   display: none;
 }
+
 @media (max-width: 1280px) {
   .nav-list {
     margin-top: 28px;
@@ -185,31 +178,34 @@ body {
   .nav {
     padding-left: 0px !important;
   }
+
   .nav > .nav-btn {
     position: absolute;
     right: 0;
     top: 0;
     padding-top: 0.2rem;
   }
+
   .nav > .nav-btn > label {
     display: inline-block;
     width: 50px;
     height: 50px;
     padding: 13px;
   }
+
   .nav > .nav-btn > label > span {
     display: block;
     width: 25px;
     height: 10px;
     border-top: 2px solid #eee;
   }
+
   .nav > .nav-list {
     position: absolute;
     display: flex;
     flex-direction: column;
     gap: 1rem;
     width: 100%;
-    /* find a darker color */
     background: rgb(31, 41, 55);
     height: 0;
     transition: all 0.3s ease-in;
@@ -217,10 +213,12 @@ body {
     left: 0;
     overflow: hidden;
   }
+
   .nav > .nav-list > li {
     width: 100%;
     margin-top: 1.5rem;
   }
+
   .nav > #nav-check:checked ~ .nav-list {
     margin-top: 30px;
     height: calc(100vh - 50px);
@@ -235,16 +233,12 @@ body {
   .footer-div {
     flex-direction: column;
   }
-  /* .footer {
-    padding-bottom: 0;
-  } */
 }
-/* media for phone screens */
+
 @media screen and (max-width: 900px) {
   .link-list {
     flex-direction: column;
     gap: 0.7rem !important;
   }
 }
-/* media 500 */
 </style>
