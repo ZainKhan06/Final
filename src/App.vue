@@ -1,18 +1,25 @@
 <script setup>
+import { ref } from "vue";
 import { RouterLink, RouterView } from "vue-router";
+
+const isNavOpen = ref(false);
+
+const closeMobileMenu = () => {
+  isNavOpen.value = false;
+};
 </script>
 
 <template>
   <nav
     class="nav w-full text-white shadow-md text-xl font-extrabold ubpixel-antialiased fixed flex top-0 py-4 px-20 bg-gray-900 z-50 items-center"
   >
-    <input type="checkbox" id="nav-check" />
+    <input type="checkbox" id="nav-check" v-model="isNavOpen" />
     <div class="nav-header flex items-center">
-      <RouterLink to="/" tag="img" class="w-10 h-10">
+      <RouterLink to="/" tag="img" class="w-10 h-10" @click="closeMobileMenu">
         <img class="w-10" src="./assets/logo.png" />
       </RouterLink>
 
-      <RouterLink to="/">Programmatics</RouterLink>
+      <RouterLink to="/" @click="closeMobileMenu">Programmatic</RouterLink>
     </div>
     <div class="nav-btn items-center h-full flex justify-center">
       <label for="nav-check" class="p-2">
@@ -23,37 +30,37 @@ import { RouterLink, RouterView } from "vue-router";
     </div>
     <ul class="nav-list items-center list-none">
       <li>
-        <router-link to="/">Home</router-link>
+        <router-link to="/" @click="closeMobileMenu">Home</router-link>
       </li>
       <divz
         class="inline-block w-0.5 self-stretch bg-neutral-100 opacity-100 dark:opacity-50"
       ></divz>
       <li>
-        <router-link to="/about">About</router-link>
+        <router-link to="/about" @click="closeMobileMenu">About</router-link>
       </li>
       <div
         class="inline-block w-0.5 self-stretch bg-neutral-100 opacity-100 dark:opacity-50"
       ></div>
       <li>
-        <router-link to="/team">Our Team</router-link>
+        <router-link to="/team" @click="closeMobileMenu">Our Team</router-link>
       </li>
       <div
         class="inline-block w-0.5 self-stretch bg-neutral-100 opacity-100 dark:opacity-50"
       ></div>
       <li>
-        <router-link to="/enroll">Enroll</router-link>
+        <router-link to="/enroll" @click="closeMobileMenu">Enroll</router-link>
       </li>
       <div
         class="inline-block w-0.5 self-stretch bg-neutral-100 opacity-100 dark:opacity-50"
       ></div>
       <li>
-        <router-link to="/volunteer">Volunteer</router-link>
+        <router-link to="/volunteer" @click="closeMobileMenu">Volunteer</router-link>
       </li>
       <div
         class="inline-block w-0.5 self-stretch bg-neutral-100 opacity-100 dark:opacity-50"
       ></div>
       <li>
-        <router-link to="/articles">Articles</router-link>
+        <router-link to="/articles" @click="closeMobileMenu">Articles</router-link>
       </li>
       <div
         class="inline-block w-0.5 self-stretch bg-neutral-100 opacity-100 dark:opacity-50"
@@ -137,8 +144,8 @@ import { RouterLink, RouterView } from "vue-router";
       </div>
       <div>
         <p class="text-center para text-white mb-5 pt-6">
-          Programmatic is an organization dedicated to teaching the next
-          generation of students the fundementals of computer science.
+          Programmatic is a nonprofit organization committed to expanding
+          access to high-quality computer science education for students.
         </p>
       </div>
     </div>

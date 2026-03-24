@@ -74,7 +74,7 @@ window.onload = function () {
         <h2 class="font-extrabold text-white text-lg">Home</h2>
         <br />
         <p class="font-semibold text-white text-sm">
-          A brief explanation about this page :D
+          An overview of the Programmatic Articles section.
         </p>
         <br />
         <a id="read-button" href="/articles/HOME.md"> Read Article </a>
@@ -82,11 +82,11 @@ window.onload = function () {
 
       <div class="rounded-sm bg-teal-950 p-5 w-72 m-10">
         <h2 class="font-extrabold text-white text-lg">
-          Behind Programmatics
+          Behind Programmatic
         </h2>
         <br />
         <p class="font-semibold text-white text-sm">
-          An article detailing the creation and development of Programmatic.org
+          A short history of Programmatic and how the organization was built.
         </p>
         <br />
         <a id="read-button" href="/articles/programmatic.md"> Read Article </a>

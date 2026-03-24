@@ -6,13 +6,15 @@ import BioCard from "../components/BioCard.vue";
   <main class="flex OurTeam">
     <section class="fixed OurteamTxt">
       <h2 class="font-extrabold text-gray-200 text-6xl mt-32 ourTeamTitle">
-        Meet the Team:
+        Meet the Team
       </h2>
       <h3
         class="text-lg font-bold py-10 ourTeam-desc text-gray-300 OurTeamDesc"
       >
-
-      This is the team of founders, developers, and teachers behind Programmatic. Our team is the driving force behind the continued development and improvement of Programmatic. With a blend of visionary founders, skilled developers, and creative educators, we are committed to providing excellent teaching materials, refining Programmatic, and creating impactful experiences for our students.
+        Programmatic is led by a team of founders, developers, and educators
+        dedicated to delivering high-quality, student-centered computer science
+        instruction. Together, we design curriculum, build learning tools, and
+        continuously improve our programs to serve students effectively.
       </h3>
     </section>
     <section class="line"></section>
@@ -20,14 +22,14 @@ import BioCard from "../components/BioCard.vue";
       <BioCard
         name="Ofir"
         pos="Founder, Front-End Developer, Teacher"
-        desc="Hi, I'm Ofir, the founder of Programmatic. With over 5 years of coding experience, I specialize in Python and have recently started exploring Unity and Dart to create practical applications. I’m excited to help guide you through your programming journey!"
+        desc="Ofir is a founder of Programmatic with more than five years of programming experience. He specializes in Python and is expanding his work in Unity and Dart to develop practical, student-focused projects."
         langs="Python, Dart, C#, JavaScript"
         discord="@.ofish"
         imgurl="discord.png"
       />
       <BioCard
         name="Zain"
-        desc="Hi, I’m Zain! I’m excited to teach you about programming. I have 3 years of experience working with both Python and Raspberry Pi, and I’m passionate about helping others learn to build their own tech projects."
+        desc="Zain is a founder and instructor with three years of experience in Python and Raspberry Pi. He is committed to helping students build confidence through hands-on technology projects."
         langs="Python, Raspberry Pi, Circuits"
         discord="@zkzain06"
         pos="Founder, Front-End Developer, Teacher"
@@ -36,7 +38,7 @@ import BioCard from "../components/BioCard.vue";
 
       <BioCard
         name="Adam"
-        desc="Hello, I’m Adam. With about 4 years of experience in Unity, I specialize in game development. I’m here to help you understand how to bring your creative ideas to life through coding."
+        desc="Adam is a founder and designer with approximately four years of Unity experience and a strong background in game development. He supports students in turning creative ideas into structured technical projects."
         langs="Python, C#"
         discord="@Adamimoka"
         pos="Founder, Graphic Designer, Front-End Developer"
@@ -45,7 +47,7 @@ import BioCard from "../components/BioCard.vue";
 
       <BioCard
         name="Ethan"
-        desc="Hi, I’m Ethan! I work as a full-stack developer and maintain the Programmatic Discord bot. I also develop websites and applications to help your learning experience."
+        desc="Ethan is a full-stack developer who maintains Programmatic's Discord bot and contributes to web application development that supports instruction and student engagement."
         langs="Python, C++, Java, JavaScript"
         discord="@ethqnol"
         pos="Full-Stack Developer, Dev of the Programmatic Discord Bot"
