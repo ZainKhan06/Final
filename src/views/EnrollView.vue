@@ -193,7 +193,7 @@ window.onload = function () {
   <h2
     class="text-transparent bg-clip-text bg-gradient-to-r from-pink-400 to-blue-500 mb-1 font-extrabold text-8xl pb-2 mt-24 title text-center"
   >
-    Start Learning today!
+    Start Learning Today
   </h2>
   <button
   id="open-popup-btn"
@@ -206,7 +206,7 @@ window.onload = function () {
 
  
   <div class="gap-5 mb-5 flex bg-blue-800 p-2 rounded-sm Autoplay-btn">
-    <h4 class="font-extrabold text-white text-2xl">Autoplay:</h4>
+    <h4 class="font-extrabold text-white text-2xl">Auto-Scroll:</h4>
     <br />
     <label class="switch">
       <input type="checkbox" id="toggleSwitch" checked />

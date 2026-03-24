@@ -23,7 +23,7 @@
   <hr class="mx-auto w-5/6 mb-24 border border-slate-400 mt-10" />
   <article class="flex-col flex justify-center items-center">
     <h2 class="text-8xl font-extrabold text-center text-white mt-5 mb-3 offer">
-      Who Are We?
+      Who We Are
     </h2>
     <hr class="mx-auto w-1/4 mb-20 border border-purple-700" />
     <section class="flex flex-col justify-center gap-36">
@@ -32,7 +32,12 @@
           <p
             class="txt-custom-scr mt-2 mb-4 text-lg text-gray-300 justify-center text-center"
           >
-            Programmatic is a nonprofit under Hackclub that helps kids learn coding and hardware by working on real projects. We guide them through building websites, creating games, wiring circuits, and designing tech solutions. By making tech hands-on and fun, we give students the tools to solve problems and gain confidence in their abilities. Our focus is on giving kids practical skills they can use in the real world.
+            Programmatic is a nonprofit organization supported by Hack Club
+            that provides students with practical instruction in software and
+            hardware. Through project-based learning, students build websites,
+            create games, work with circuits, and develop technology solutions
+            that address real-world problems. Our programs are designed to
+            strengthen technical proficiency, critical thinking, and confidence.
           </p>
           <a
             href="#/about"
@@ -46,7 +51,7 @@
   <hr class="mx-auto w-5/6 mb-24 border border-slate-400 mt-32" />
   <article class="flex-col flex justify-center items-center">
     <h2 class="text-8xl font-extrabold text-center text-white mt-24 mb-3 offer">
-      What Can We Offer?
+      What We Offer
     </h2>
     <hr class="mx-auto w-1/3 mb-24 border border-purple-700 mt-1" />
     <section class="flex flex-col justify-center gap-36">
@@ -58,10 +63,14 @@
           <h2
             class="txt-custom txt-title text-5xl font-extrabold py-5 text-white mt-1"
           >
-          Coding, Hardware, and Problem Solving
+            Computer Science, Hardware, and Applied Problem-Solving
           </h2>
           <p class="txt-custom mt-4 py-1 mb-4 text-lg text-gray-300">
-            In our classes, students will learn to build websites, program games, design circuits, and create their own tech solutions. Beyond technical skills, they'll develop creativity, critical thinking, and confidence as they tackle challenges and bring their ideas to life. Our goal is to provide a learning environment that encourages exploration, builds practical skills, and helps kids gain a deeper understanding of how technology works in the world around them.
+            Our classes help students build websites, develop games, design
+            circuits, and create their own technology solutions. In addition to
+            technical instruction, we emphasize creativity, analytical
+            reasoning, and communication so students can approach challenges
+            with clarity and confidence.
           </p>
           <router-link
             to="/enroll"
@@ -83,7 +92,10 @@
             Volunteer
           </h2>
           <p class="txt-custom mt-4 mb-4 py-1 text-lg text-gray-300">
-            Want to help? Programmatic is the perfect place for programmers and developers interested in teaching STEM. Not only will you gain experience improving your presentation and teaching skills, but you can also earn volunteer hours while helping the next generation of students learn computer science. Choose from five courses to teach or contribute to expanding and developing Programmatic.
+            Programmatic welcomes volunteers who are interested in supporting
+            student learning in computer science. Volunteers contribute to
+            classroom instruction, mentorship, and curriculum development while
+            gaining meaningful teaching and leadership experience.
           </p>
           <a
             href="#/volunteer"
@@ -103,9 +115,8 @@
       Contact Us
     </h4>
     <p class="text-center text-2xl text-white m-5 contact">
-      Got questions? Reach out to us! We're here to answer your inquiries,
-      provide more information about our programming classes and volunteering
-      opportunities, and guide you through the exciting journey ahead.
+      If you have questions, we would be glad to help. Contact us for
+      information about classes, partnerships, and volunteer opportunities.
     </p>
     <h5 class="text-2xl text-center text-white font-bold p-2 gmail">
       programmaticteams@gmail.com
