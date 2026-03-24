@@ -19,7 +19,8 @@ const closeMobileMenu = () => {
         <img class="w-10" src="./assets/logo.png" />
       </RouterLink>
 
-<RouterLink to="/" @click="closeMobileMenu">Programmatics</RouterLink>
+      <!-- FIXED -->
+      <RouterLink to="/" @click="closeMobileMenu">Programmatics</RouterLink>
     </div>
 
     <div class="nav-btn items-center h-full flex justify-center">
@@ -33,13 +34,6 @@ const closeMobileMenu = () => {
     <ul class="nav-list items-center list-none">
       <li>
         <router-link to="/" @click="closeMobileMenu">Home</router-link>
-</li>
-<div
-  class="inline-block w-0.5 self-stretch bg-neutral-100 opacity-100 dark:opacity-50"
-></div>
-<li>
-  <router-link to="/about" @click="closeMobileMenu">About</router-link>
-</li>
       </li>
 
       <!-- FIXED divz -->
@@ -48,30 +42,21 @@ const closeMobileMenu = () => {
       ></div>
 
       <li>
-        <router-link to="/team" @click="closeMobileMenu">Our Team</router-link>
         <router-link to="/about" @click="closeMobileMenu">About</router-link>
       </li>
       <div class="inline-block w-0.5 self-stretch bg-neutral-100 opacity-100 dark:opacity-50"></div>
 
       <li>
-<router-link to="/team" @click="closeMobileMenu">Our Team</router-link>
-
-<div
-  class="inline-block w-0.5 self-stretch bg-neutral-100 opacity-100 dark:opacity-50"
-></div>
-
-<router-link to="/enroll" @click="closeMobileMenu">Enroll</router-link>
+        <router-link to="/team" @click="closeMobileMenu">Our Team</router-link>
       </li>
       <div class="inline-block w-0.5 self-stretch bg-neutral-100 opacity-100 dark:opacity-50"></div>
 
       <li>
-        <router-link to="/volunteer" @click="closeMobileMenu">Volunteer</router-link>
         <router-link to="/enroll" @click="closeMobileMenu">Enroll</router-link>
       </li>
       <div class="inline-block w-0.5 self-stretch bg-neutral-100 opacity-100 dark:opacity-50"></div>
 
       <li>
-        <router-link to="/articles" @click="closeMobileMenu">Articles</router-link>
         <router-link to="/volunteer" @click="closeMobileMenu">Volunteer</router-link>
       </li>
       <div class="inline-block w-0.5 self-stretch bg-neutral-100 opacity-100 dark:opacity-50"></div>
@@ -150,7 +135,7 @@ const closeMobileMenu = () => {
 
       <div>
         <p class="text-center para text-white mb-5 pt-6">
-          Programmatic is a nonprofit organization committed to expanding
+          Programmatics is a nonprofit organization committed to expanding
           access to high-quality computer science education for students.
         </p>
       </div>

@@ -9,13 +9,6 @@ import Admin from "../views/AdminView.vue";
 
 const router = createRouter({
   history: createWebHashHistory(import.meta.env.BASE_URL),
-  scrollBehavior(to, from, savedPosition) {
-    if (savedPosition) {
-      return savedPosition;
-    }
-
-    return { top: 0, behavior: "smooth" };
-  },
   routes: [
     {
       path: "/",
